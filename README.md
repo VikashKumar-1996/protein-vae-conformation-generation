@@ -87,11 +87,12 @@ A geometry-aware Variational Autoencoder (VAE) for protein conformational ensemb
 - Diffusion-based conformational generation
 ## Author
 
+## Author
+
 Vikash Kumar Mahato
 
-## Research interests:
-
-Generative AI for proteins
-Computational biology
-Deep learning
-Protein structure modeling
+### Research Interests
+- Generative AI for proteins
+- Computational biology
+- Deep learning
+- Protein structure modeling
