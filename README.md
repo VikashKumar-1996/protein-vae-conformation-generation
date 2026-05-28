@@ -1,29 +1,18 @@
 # Protein Conformation Generation using Geometry-Aware Variational Autoencoders
+## Overview
 
-A geometry-aware Variational Autoencoder (VAE) for protein conformational ensemble generation using internal coordinates, NeRF reconstruction, and structural regularization losses.
+This project explores deep generative modeling of protein conformational ensembles using Variational Autoencoders (VAEs). The model learns latent structural representations of proteins and generates physically plausible conformations through geometry-aware constraints and internal-coordinate reconstruction.
 
-## Features
+The pipeline combines:
 
-- Variational Autoencoder for protein conformations
-- Internal-coordinate representation
-- NeRF-based Cartesian reconstruction
-- Distance-map and contact-map losses
-- Prior sampling for structure generation
-- RMSD and structural evaluation
-- Contact-map analysis
-- Latent-space interpolation
+* Variational Autoencoders
+* Internal-coordinate protein representation
+* NeRF-based Cartesian reconstruction
+* Distance-map regularization
+* Contact-map analysis
+* Structural evaluation metrics
 
-## Pipeline Overview
-
-1. Protein structures converted to internal coordinates
-2. Geometry-aware Variational Autoencoder trained on conformational ensembles
-3. Latent representations sampled from prior distribution
-4. Internal coordinates reconstructed into Cartesian coordinates using NeRF
-5. Generated structures evaluated using:
-   - RMSD
-   - Contact maps
-   - Bond geometry distributions
-   - Torsion-angle statistics
+The primary objective is to generate realistic protein conformations while preserving global fold topology and local geometric consistency.
 
 ## Model Architecture
 
