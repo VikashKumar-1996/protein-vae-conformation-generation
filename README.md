@@ -74,7 +74,7 @@ The primary objective is to generate realistic protein conformations while prese
 - Residual CNN decoder
 - Equivariant architectures
 - Diffusion-based conformational generation
-## Author
+
 
 ## Author
 
