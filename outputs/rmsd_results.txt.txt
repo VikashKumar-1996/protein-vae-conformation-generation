@@ -1,25 +1,20 @@
-yMOL>align trainca_open, generated_open_prior
+PyMOL>align trainca_close, generated_closed_prior_2
  Match: read scoring matrix.
  Match: assigning 341 x 341 pairwise scores.
  MatchAlign: aligning residues (341 vs 341)...
  MatchAlign: score 1691.000
  ExecutiveAlign: 341 atoms aligned.
- ExecutiveRMS: 12 atoms rejected during cycle 1 (RMSD=4.13).
- ExecutiveRMS: 15 atoms rejected during cycle 2 (RMSD=3.78).
- ExecutiveRMS: 15 atoms rejected during cycle 3 (RMSD=3.37).
- ExecutiveRMS: 13 atoms rejected during cycle 4 (RMSD=2.98).
- ExecutiveRMS: 14 atoms rejected during cycle 5 (RMSD=2.64).
- Executive: RMSD =    2.331 (272 to 272 atoms)
+ Executive: RMSD =    2.368 (341 to 341 atoms)
 
-PyMOL>align trainca_close, generated_closed_prior
+PyMOL>align trainca_open, generated_open_prior_2
  Match: read scoring matrix.
  Match: assigning 341 x 341 pairwise scores.
  MatchAlign: aligning residues (341 vs 341)...
  MatchAlign: score 1691.000
  ExecutiveAlign: 341 atoms aligned.
- ExecutiveRMS: 7 atoms rejected during cycle 1 (RMSD=5.82).
- ExecutiveRMS: 10 atoms rejected during cycle 2 (RMSD=5.59).
- ExecutiveRMS: 10 atoms rejected during cycle 3 (RMSD=5.27).
- ExecutiveRMS: 15 atoms rejected during cycle 4 (RMSD=4.92).
- ExecutiveRMS: 24 atoms rejected during cycle 5 (RMSD=4.37).
- Executive: RMSD =    3.335 (275 to 275 atoms)
+ ExecutiveRMS: 18 atoms rejected during cycle 1 (RMSD=2.43).
+ ExecutiveRMS: 11 atoms rejected during cycle 2 (RMSD=1.76).
+ ExecutiveRMS: 6 atoms rejected during cycle 3 (RMSD=1.57).
+ ExecutiveRMS: 3 atoms rejected during cycle 4 (RMSD=1.51).
+ ExecutiveRMS: 2 atoms rejected during cycle 5 (RMSD=1.49).
+ Executive: RMSD =    1.471 (301 to 301 atoms)
